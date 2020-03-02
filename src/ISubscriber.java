@@ -1,4 +1,14 @@
+package javaapplication1;
 
-public interface ISubscriber {
-	public abstract void notifySubscriber(String input);
+public abstract class ISubscriber extends Thread
+{
+    protected String input;
+    
+    public abstract void notifySubscriber(String input);
+    
+    @Override
+    public void run()
+    {
+        notifySubscriber(this.input);
+    }
 }
