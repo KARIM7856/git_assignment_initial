@@ -4,7 +4,7 @@ public class Circlecir implements ISubscriber {
 
         double r= new Double(input);
         double circum = 2*3.14*r;
-        System.out.print("\nCircumference of Circle = " +circum);
+        System.out.println("\nCircumference of Circle = " +circum);
     }
 
     @Override
