@@ -9,7 +9,7 @@ public class TwoPowerN implements ISubscriber {
         for (int i = 0 ;i < n ;i++)
             ans = ans * 2;
 
-        System.out.println("\nHello i'm a 2PowerN subscriber and " + "i'm notified with " + input);
+        System.out.println("Hello i'm a 2PowerN subscriber and " + "i'm notified with " + input);
         System.out.println("2 power " + n + " = " + ans);
     }
 }
