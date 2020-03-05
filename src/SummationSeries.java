@@ -5,12 +5,14 @@
  */
 package summationseries;
 
-/**
- *
- * @author Zak
- */
-public class SummationSeries implements ISubscriber {
 
+public class SummationSeries implements ISubscriber 
+{
+    public SummationSeries(String input)
+    {
+        this.input = input;
+    }
+    
     @Override
     public void notifySubscriber(String input) 
     {
