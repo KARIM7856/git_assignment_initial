@@ -1,4 +1,4 @@
-package javaapplication1;
+
 
 public abstract class ISubscriber extends Thread
 {
