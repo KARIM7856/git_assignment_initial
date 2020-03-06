@@ -33,11 +33,6 @@ Contribute to Push Your Git Skills to the Next Level.
 
 public class SphereVolume extends ISubscriber
 {
-    public SphereVolume(String input)
-    {
-        this.input = input;
-    }
-    
     @Override
     public void notifySubscriber(String input) 
     {
@@ -62,14 +57,14 @@ public class Main
      *  2- Pass it to subscribers array
      */
     private static ISubscriber subscribers [] = {
-        new SphereVolume("5.0")
-        new SimpleSubscriber("1.0") ,
-        new MultiplicationSeries("2.0"),
-        new SphereVolumeSubscriber("4.0"),
-        new SummationSeries("3.0"),
-        new CircleArea("5.0"),
-        new Circlecir("4.0"),
-        new TwoPowerN("5.0")
+        new SphereVolume()
+        new SimpleSubscriber() ,
+        new MultiplicationSeries(),
+        new SphereVolumeSubscriber(),
+        new SummationSeries(),
+        new CircleArea(),
+        new Circlecir(),
+        new TwoPowerN()
     };
     
     public static void main(String[] args) 
