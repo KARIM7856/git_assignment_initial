@@ -5,12 +5,12 @@
  */
 
 
-public class SummationSeries implements ISubscriber 
+public class SummationSeries extends ISubscriber 
 {
-    public SummationSeries(String input)
+    /*public SummationSeries(String input)
     {
         this.input = input;
-    }
+    }*/
     
     @Override
     public void notifySubscriber(String input) 
