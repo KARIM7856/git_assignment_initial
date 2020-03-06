@@ -26,6 +26,7 @@ public class Topic
     {
         for(ISubscriber sub : this.getSubscribers())
         {
+            sub.input = input;
             Thread t1 = new Thread(sub);
             t1.start();
         }
