@@ -1,4 +1,4 @@
-public class Circlecir implements ISubscriber {
+public class Circlecir extends ISubscriber {
 
     public void Circle(String input) {
 

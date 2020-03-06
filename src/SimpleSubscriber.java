@@ -1,5 +1,5 @@
 
-public class SimpleSubscriber implements ISubscriber {
+public class SimpleSubscriber extends ISubscriber {
 
 	@Override
 	public void notifySubscriber(String input) {
