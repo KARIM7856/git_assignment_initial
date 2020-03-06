@@ -1,5 +1,5 @@
 
-public class CircleArea implements ISubscriber {
+public class CircleArea extends ISubscriber {
 	@Override
 	public void notifySubscriber(String input) {
 		double r = Double.parseDouble(input);
