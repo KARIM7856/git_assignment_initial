@@ -7,12 +7,7 @@ package javaapplication1;
 
 
 public class SphereVolume extends ISubscriber
-{
-    public SphereVolume(String input)
-    {
-        this.input = input;
-    }
-    
+{    
     @Override
     public void notifySubscriber(String input) 
     {
@@ -21,5 +16,4 @@ public class SphereVolume extends ISubscriber
         
         System.out.println("Hello, I am really a sphere volume and I am notified with " + volume);
     }
-
 }

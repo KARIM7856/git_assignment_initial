@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Main 
 {
     private static ISubscriber subscribers [] = {
-        new SphereVolume("5.0")
-        new SimpleSubscriber("1.0") ,
-        new MultiplicationSeries("2.0"),
-        new SphereVolumeSubscriber("4.0"),
-        new SummationSeries("3.0"),
-        new CircleArea("5.0"),
-        new Circlecir("4.0"),
-        new TwoPowerN("5.0")
+        new SphereVolume()
+        new SimpleSubscriber() ,
+        new MultiplicationSeries(),
+        new SphereVolumeSubscriber(),
+        new SummationSeries(),
+        new CircleArea(),
+        new Circlecir(),
+        new TwoPowerN()
     };
     
     public static void main(String[] args) 
