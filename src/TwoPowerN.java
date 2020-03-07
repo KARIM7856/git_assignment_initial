@@ -1,6 +1,6 @@
 
 
-public class TwoPowerN implements ISubscriber {
+public class TwoPowerN extends ISubscriber {
     @Override
     public void notifySubscriber(String input) {
         int n = Integer.parseInt(input);
