@@ -1,5 +1,5 @@
 
-public class MultiplicationSeries implements ISubscriber {
+public class MultiplicationSeries extends ISubscriber {
 
 
 
